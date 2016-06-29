@@ -1,10 +1,13 @@
 How to use ESLint to check js code
 ==================================
 
-1. `npm install -g eslint`
-2. `cd js`
-3. `npm install eslint-rules`
-4. `eslint src --rulesdir ./node_modules/eslint-rules/`
+```
+npm install -g eslint
+
+cd js
+npm install
+eslint src --rulesdir ./node_modules/eslint-rules/
+```
 
 You will see all the issues eslint found in the console. For now, it's:
 
@@ -38,7 +41,7 @@ You will see all the issues eslint found in the console. For now, it's:
 Where are the rules from
 ------------------------
 
-1. eslint built-in rules
+1. [eslint built-in rules](https://github.com/eslint/eslint/blob/master/conf/eslint.json)
 2. https://github.com/bahmutov/eslint-rules
 
 Where are the rules used when checking
